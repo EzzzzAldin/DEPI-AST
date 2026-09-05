@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.product {
+  border: solid 2px #7f7f7f;
+  margin: 15px 0;
+  padding: 15px;
+}
+
+.cart {
+  padding: 15px;
+  margin: 15px 0;
+  border: solid 2px #000;
+  font-size: 2rem;
+}
+
+.sale {
+  background-color: red;
+  color: #fff;
+}
