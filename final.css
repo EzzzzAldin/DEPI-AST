@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+  padding: 25px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.colors {
+  margin-top: 20px;
+}
+
+.colors p {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #eee;
+  border-radius: 5px;
+}
