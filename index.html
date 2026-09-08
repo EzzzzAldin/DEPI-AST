@@ -7,20 +7,63 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Session 1</h1>
-    <div>Div1</div>
-    <div class="d2">Div2</div>
-    <div id="d3">Div3</div>
-    <input type="text" id="search-box" />
-    <div class="reslut"></div>
-    <select class="countries">
-      <option>Eg</option>
-      <option>USA</option>
-      <option>KSA</option>
-    </select>
-    <button class="btn1">1</button>
-    <button class="btn1">2</button>
-    <button class="btn1">3</button>
+    <h1>Session 6</h1>
+    <div class="conatiner">
+      <!-- Event Click -->
+      <section class="box">
+        <h2>Click Event</h2>
+        <button id="clickEvent">Click Me</button>
+        <p class="clickMsg">Click The Btn</p>
+      </section>
+
+      <!-- Event Input -->
+      <section class="box">
+        <h2>Input Event</h2>
+        <input type="text" id="search" placeholder="Search...." />
+        <p class="inputMsg">Start...</p>
+      </section>
+
+      <!-- Event Change -->
+      <section class="box">
+        <h2>Change Event</h2>
+        <select id="countrySelect">
+          <option>Select Country</option>
+          <option value="eg">Eg</option>
+          <option value="ksa">KSA</option>
+          <option value="usa">USA</option>
+        </select>
+        <p class="changeMsg">Select Your Country...</p>
+      </section>
+
+      <!-- Event Key -->
+      <section class="box">
+        <h2>Keyup Event</h2>
+        <input type="text" id="keyInput" />
+        <p class="keyMsg">Waiting Press Enter</p>
+      </section>
+
+      <!-- Event Submit -->
+      <section class="box">
+        <h2>Submit Event</h2>
+        <form id="loginForm">
+          <input type="text" placeholder="Username" required />
+          <input type="password" placeholder="Password" required />
+          <button type="submit" class="loginBtn">Login</button>
+        </form>
+
+        <p class="loginMsg">Submit Your Form</p>
+      </section>
+
+      <section class="box">
+        <ul class="list">
+          <li>Task 1</li>
+          <li>Task 2</li>
+          <li>Task 3</li>
+          <li>Task 4</li>
+        </ul>
+      </section>
+    </div>
+
     <script src="main.js"></script>
   </body>
 </html>
